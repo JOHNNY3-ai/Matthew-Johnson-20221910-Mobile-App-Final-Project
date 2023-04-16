@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:title="@string/app_name" />
+
+    <!-- Options -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <!-- Faculty/Staff Directory -->
+        <Button
+            android:id="@+id/btn_directory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginBottom="16dp"
+            android:text="Directory" />
+
+        <!-- Courses -->
+        <Button
+            android:id="@+id/btn_courses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginBottom="16dp"
+            android:text="Courses" />
+
+        <!-- Admissions -->
+        <Button
+            android:id="@+id/btn_admissions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginBottom="16dp"
+            android:text="Admissions" />
+
+        <!-- Social Media -->
+        <Button
+            android:id="@+id/btn_social"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_dark_background"
+            android:text="Social" />
+
+    </LinearLayout>
+</LinearLayout>
